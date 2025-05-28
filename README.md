@@ -35,7 +35,7 @@
 
 ## 🧰 Tech Stack
 
-- **Frontend**: React, CSS Modules
+- **Frontend**: React, CSS 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (with Mongoose)
 - **Authentication**: JSON Web Tokens (JWT)
@@ -52,7 +52,7 @@
 git clone https://github.com/your-username/inspiro-dash.git
 
 # Navigate to the frontend directory
-cd frontend
+cd frontend cd mini-productivity-dashboard
 
 # Install dependencies
 npm install
