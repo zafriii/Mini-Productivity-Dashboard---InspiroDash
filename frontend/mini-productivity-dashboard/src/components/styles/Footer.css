@@ -1,0 +1,144 @@
+ .footer {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 40px 0;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: -40px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #e94560;
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #e94560;
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #e94560;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid #ddd;
+}
+
+.app[data-theme="dark"] .footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-top: 1px solid #333;
+}
+
+.app[data-theme="dark"] .footer-section h3,
+.app[data-theme="dark"] .footer-section h4 {
+  color: #ff6b8b; 
+}
+
+.app[data-theme="dark"] .footer-section p {
+  color: #b0b0b0;
+}
+
+.app[data-theme="dark"] .footer-section ul li a {
+  color: #c0c0c0;
+}
+
+.app[data-theme="dark"] .footer-section ul li a:hover {
+  color: #ff6b8b;
+}
+
+.app[data-theme="dark"] .social-icons a {
+  color: #b0b0b0;
+}
+
+.app[data-theme="dark"] .social-icons a:hover {
+  color: #ff6b8b;
+}
+
+.app[data-theme="dark"] .footer-bottom {
+  color: #888;
+  border-top: 1px solid #333;
+}
+
+
+.app[data-theme="dark"] .social-icons a:hover {
+  text-shadow: 0 0 8px rgba(255, 107, 139, 0.4);
+}
+
+.footer,
+.footer-section h3,
+.footer-section h4,
+.footer-section p,
+.footer-section ul li a,
+.social-icons a,
+.footer-bottom {
+  transition: all 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-section {
+    margin-bottom: 2rem;
+    margin-left: 40px;
+  }
+
+  .footer-section.about {
+    text-align: left;
+    margin-left: 40px;
+  }
+}

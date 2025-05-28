@@ -1,0 +1,74 @@
+.quote-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.quote-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+
+.quote-button{
+  background: linear-gradient(135deg, #e94560, #ff8dcf);
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-button:hover {
+  background: linear-gradient(135deg, #ff8dcf, #e94560);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.5);
+  transform: translateY(-2px);
+}
+
+.quote-button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .quote-text {
+    font-size: 1rem;
+  }
+
+  .quote-button {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+.app[data-theme="dark"] .quote-heading, .app[data-theme="dark"] .quote-text, .app[data-theme="dark"] .quote-author {
+  color: #c0c0c0;
+}
