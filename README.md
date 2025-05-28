@@ -72,7 +72,7 @@ npm install
 
 # Create a `.env` file in the root with the following content:
 MONGODB_URI=mongodb+srv://your-username:your-password@mongodb.sekrqaw.mongodb.net/mini_productivity?retryWrites=true&w=majority&appName=Mon
-JWT_SECRET_KEY = USERID&PASSWORD
+JWT_SECRET_KEY=USERID&PASSWORD
 PORT=5000
 
 # Start the server
