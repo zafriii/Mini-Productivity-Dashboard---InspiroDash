@@ -12,6 +12,12 @@
 
 ## 🔥 Features
 
+## 🔐 User Authentication
+
+- Users can **sign up** and **log in** to their accounts.
+- JWT-based **token authentication** is implemented to secure user routes.
+- Only logged-in users can access, add, update, or delete their tasks and goals.
+
 ### 🧘 Daily Motivation
 - Automatically fetches and displays a quote from the [ZenQuotes API](https://zenquotes.io/) to start your day with inspiration.
 
