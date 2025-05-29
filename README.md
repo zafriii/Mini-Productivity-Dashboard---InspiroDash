@@ -1,6 +1,6 @@
 # 🌟 Inspiro Dash — Mini Productivity Dashboard
 
-**Live Demo** 👉 [https://inspiro-dash.netlify.app/](https://inspiro-dash.netlify.app/)
+**Live Demo** 👉 [https://inspiro-dash.netlify.app/](https://inspiro-dash.netlify.app)
 
 ---
 
