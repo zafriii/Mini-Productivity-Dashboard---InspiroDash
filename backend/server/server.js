@@ -25,7 +25,6 @@ app.use(cors(corsOptions));
 
 // Middleware for parsing JSON and static files
 app.use(express.json());
-app.use(express.static('dist'));
 
 // Connect routes for authentication and tasks
 app.use("/api/auth", authRouter);
