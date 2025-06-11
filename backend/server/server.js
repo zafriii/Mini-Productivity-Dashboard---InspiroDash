@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const http = require('http');
-const { Server } = require('socket.io');
 const connectDB = require("./utils/db");
 
 const authRouter = require("./router/auth-router");
@@ -14,7 +13,7 @@ const goalRouter = require("./router/goalRouter");
 const errorMiddleware = require("./middlewares/error-middleware");
 
 const app = express();
-const server = http.createServer(app); // Create the server for both HTTP and WebSocket connections
+const server = http.createServer(app); 
 
 // Middleware for CORS
 const corsOptions = {
@@ -28,7 +27,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.static('dist'));
 
-// Connect routes for authentication and blogs
+// Connect routes for authentication and tasks
 app.use("/api/auth", authRouter);
 
 app.use("/api/tasks", taskRouter);
